@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="it">
+    <head>
+        <meta charset="utf-8" />
+        <title>KRtD</title>
+
+        <link rel='stylesheet' type='text/css' href='CSS/style.css'>
+    </head>
+
+
+
+
+    <body>
+        <div style="background-color: rgb(82, 19, 61); height:70vh;">   <!-- apertura del sito (immagine) -->
+            <img id="secondary-logo" src="img/kirby_return_to_dreamland_logo.png">
+        </div>
+
+
+        <div style="background-image: linear-gradient(rgb(82, 19, 61), rgb(150, 116, 155));">   <!-- descrizione gioco -->
+            <p class="normal-text" style="padding: 5em; padding-bottom: 0px; padding-top: 10vh;">
+                <strong>Kirby's Return to Dream Land</strong>, anche conosciuto come <em>Kirby's Adventure Wii</em> è un videogioco platformer/side-scroller sviluppato dalla HAL Laboratory e pubblicato da Nintendo nel 2011 per la <strong>Wii</strong>.<br>
+                Esso è il dodicesimo titolo della serie.<br><br>
+                Ecco alcuni background interessanti che possono essere visualizzati su noclip:
+            </p>
+        </div>
+
+
+        <div style="background-color: rgb(150, 116, 155);"> <!-- scenari su noclip -->
+            <div class="side-vid">
+                <video autoplay muted loop width="300%">
+                    <source src="img/sunset-tower.mp4" type="video/mp4">
+                </video>
+
+                <div class="normal-text" style="text-align: left; padding-left: 1em;">
+                    <h1>
+                        Sunset Tower
+                    </h1>
+
+                    <p>
+                        In questo sfondo si può notare la tecnica di <em>Frustum culling</em>, ovvero non renderizzare gli oggetti che non si trovano nel <em>Viewing frustum</em>, <strong><em>ovvero</em></strong> nel campo visivo della telecamera.<br>
+                        Infatti la parte del pianeta che non è direttamente vista dalla telecamera <strong>scompare</strong>, e appare quella che <strong>sta per essere visualizzata</strong>.
+                        Nei game engine più recenti viene utilizzata anche un’altra tecnica più avanzata: l'<em>Occlusion culling</em>, la quale consiste nel disabilitare il rendering di oggetti nascosti da altra geometria.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="side-vid" style="padding-top: 0;">
+                <div class="normal-text" style="text-align: right; padding-right: 1em;">
+                    <h1>
+                        Lor Starcutter Shooter
+                    </h1>
+                    
+                    <p>
+                        In questo side-scroller non sono i personaggi a muoversi, bensì è lo sfondo che <strong>scorre e si ripete</strong>; durante un preciso frame esso si <strong><em>teletrasporta</em></strong> indietro per sembrare infinito.<br>
+                        Se si osserva la parte finale dello sfondo si può notare come il cambiamento non sia percettibile.
+                    </p>
+                </div>
+
+                <video autoplay muted loop width="200%">    <!-- i due video scalano in maniera differente per qualche ragione -->
+                    <source src="img/lor-starcutter-shooter.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+
+
+        <footer id="footer">
+            <table id="footer-table">
+                <tr>
+                    <th>Back to x</th>
+                    <th>Noclip</th>
+                    <th>Jasper</th>
+                </tr>
+
+                <tr>
+                    <td> <a href="#secondary-logo">Top</a> </td>
+                    <td> <a href="https://noclip.website" target="_blank">noclip.website</a> </td>
+                    <td> <a href="https://twitter.com/JasperRLZ" target="_blank">Twitter</a> </td>
+                </tr>
+
+                <tr>
+                    <td> <a href="index.html">Homepage</a> </td>
+                    <td>&nbsp;</td>
+                    <td> <a href="https://www.youtube.com/@JasperRLZ" target="_blank">Youtube</a> </td>
+                </tr>
+
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td> <a href="https://github.com/magcius" target="_blank">Github</a> </td>
+                </tr>
+            </table>
+
+            <p style="text-align: center; color: rgb(61, 20, 8);">Filippo Galli 3Bt</p>
+        </footer>
+
+
+    </body>
+</html>

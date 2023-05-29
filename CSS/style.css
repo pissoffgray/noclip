@@ -1,0 +1,98 @@
+body { margin:0; }
+
+#main-logo
+{
+    display: block; /* dà all'immagine le proprietà di un div */
+    margin-left: auto;  /* questo e il comando sotto la centrano */
+    margin-right: auto;
+    margin-bottom: 0px;
+    height: 100vh;  /* vh e vw sono rispettivamente la percentuale dell'altezza e della larghezza dell'attuale viewport, ovvero del parent element */
+    max-width: 100%;    /*100% body lenght*/
+    opacity: 0.2;
+}
+#secondary-logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    max-width: 100%;
+}
+#title
+{
+    position: relative; /* spsota l'elemento in base alla sua posizione originale */
+    text-align: center;
+    font-size: 10vw;
+    color: aliceblue;
+    bottom: 60vh;   /* sposto il testo sopra in modo da centrarlo sull'immagine */
+    margin: 0px;
+}
+#sub-title
+{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    bottom: 60vh;
+    margin: 0px;
+}
+.main-vid
+{
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.side-vid
+{
+    display: flex;  /* le flexbox permettono di allineare gli elementi */
+    padding: 5em;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.normal-text
+{
+    text-align: center;
+    margin: 0px;
+    font-size: 150%;
+    color: aliceblue;
+}
+#quote
+{
+    position: relative;
+    margin-top: 0%;
+    color:rgb(54, 54, 54);
+}
+#footer
+{
+    background-color: rgb(190, 175, 153);
+    height: 15em;
+}
+#footer-table
+{
+    width:30%;  /* larghezza delle celle (basate sulla larghezza del footer) */
+    text-align: center;
+    font-size: 125%;
+    color: rgb(61, 20, 8);
+    margin: auto;
+}
+/* ammetto di aver copiato questo codice da internet e solo aggiustato i colori */
+a:link
+{
+color: rgb(61, 20, 8);
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited
+{
+color: rgb(165, 60, 92);
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover
+{
+color: rgb(165, 60, 92);
+background-color: transparent;
+text-decoration: underline;
+}
